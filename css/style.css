@@ -54,6 +54,12 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   nav button {
@@ -110,6 +116,7 @@
   #trending {
     display: flex;
     flex-direction: row;
+    gap: 10px;
   }
 
   #sort {
